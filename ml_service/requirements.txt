@@ -1,0 +1,21 @@
+# Core ML
+torch==2.1.0
+torchvision==0.16.0
+ultralytics==8.0.196
+
+# Image processing
+opencv-python==4.8.1.78
+pillow==10.1.0
+numpy==1.24.3
+pdf2image==1.16.3
+
+# PDF support (требует poppler)
+# На Ubuntu: sudo apt-get install poppler-utils
+# На Mac: brew install poppler
+
+# Web server
+flask==3.0.0
+werkzeug==3.0.1
+
+# Utilities
+python-dotenv==1.0.0
